@@ -20,12 +20,12 @@ export default {
 .header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
+  border-radius: 20px;
 }
 
 h1 {
   margin: 0;
 }
 </style>
-

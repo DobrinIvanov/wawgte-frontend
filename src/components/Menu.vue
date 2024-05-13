@@ -33,11 +33,14 @@
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    border: solid 1px red;
+    border-radius: 20px;
+    padding: 10px;
   }
   li {
     display: inline-block;
     margin-right: 10px;
+    border: solid 2px blue;
   }
   a {
     color: #fff; /* White text color */

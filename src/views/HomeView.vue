@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <div id="homeview">
       <Header />
-      <Menu /><!-- Your HomeView content here -->
+      <Menu />
+      <p>Is this going to appear? This is HomeView.vue</p>
     </div>
   </template>
   
@@ -20,6 +21,12 @@
   
   <style>
  
- 
+ p {
+  background-color: pink;
+  color: red;
+ }
+ #homeview {
+  background-color: blue;
+ }
   </style>
   

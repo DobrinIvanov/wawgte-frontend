@@ -28,7 +28,6 @@
   <style scoped>
   /* Add CSS styles here */
   .menu {
-    background-color: #E4A750; /* Deep orange color */
     padding: 10px;
   }
   ul {

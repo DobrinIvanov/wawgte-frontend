@@ -1,7 +1,7 @@
 <!-- App.vue -->
 
 <template>
-  <div id="app">
+  <div>
     <Header />
     <Menu />
     <!-- Other components and content -->
@@ -21,9 +21,5 @@ export default {
 </script>
 
 <style>
-#app {
-  background-color: #FFF;
-  height: 500px;
-}
 /* Add global styles here */
 </style>

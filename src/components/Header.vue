@@ -1,8 +1,8 @@
 <!-- Header.vue -->
 <template>
-  <header class="header">
-    <h1>{{ title }}</h1>
-  </header>
+  <div class="header">
+      <h1>{{ title }}</h1>
+  </div>
 </template>
 
 <script>
@@ -23,8 +23,8 @@ export default {
   padding: 30px;
   text-align: center;
   border-radius: 20px;
+  width: 100%;
 }
-
 h1 {
   margin: 0;
 }

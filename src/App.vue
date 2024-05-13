@@ -21,5 +21,9 @@ export default {
 </script>
 
 <style>
+#app {
+  background-color: #FFF;
+  height: 500px;
+}
 /* Add global styles here */
 </style>

@@ -1,8 +1,7 @@
 <template>
     <div>
       <Header />
-      <Menu />
-      <!-- Your HomeView content here -->
+      <Menu /><!-- Your HomeView content here -->
     </div>
   </template>
   
@@ -20,6 +19,7 @@
   </script>
   
   <style>
-  /* Your styles here */
+ 
+ 
   </style>
   

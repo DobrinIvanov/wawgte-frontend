@@ -20,13 +20,6 @@
   </script>
   
   <style>
- 
- p {
-  background-color: pink;
-  color: red;
- }
- #homeview {
-  background-color: blue;
- }
+
   </style>
   

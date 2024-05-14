@@ -17,14 +17,5 @@ export default {
 
 <style scoped>
 /* Add CSS styles here */
-.header {
-  color: #fff;
-  padding: 30px;
-  text-align: center;
-  border-radius: 20px;
-  border: solid 1px black;
-}
-h1 {
-  margin: 0;
-}
+
 </style>

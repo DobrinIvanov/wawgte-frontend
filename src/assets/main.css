@@ -1,5 +1,4 @@
-#app {
-    background-color: #3cb4ff;
-    border: solid 10px black;
-    border-radius: 20px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

@@ -1,7 +1,7 @@
 <!-- App.vue -->
 
 <template>
-  <div id="app" class='w-full h-full bg-blue-300 flex justify-center items-center'>
+  <div class='w-full h-full bg-red-300'>
     <Main />
   </div>
 </template>

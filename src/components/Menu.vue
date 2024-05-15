@@ -1,7 +1,7 @@
 <!-- Menu.vue -->
 
 <template>
-    <div class="menu">
+    <div id="menu">
       <ul>
         <li v-for="(item, index) in menuItems" :key="index">
           <a :href="item.link">{{ item.text }}</a>
@@ -25,8 +25,7 @@
   };
   </script>
   
-  <style scoped>
+  <style >
   /* Add CSS styles here */
-  
   </style>
   

@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+#app {
+    background-color: pink;
+}

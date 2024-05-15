@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style >
 /* Add CSS styles here */
 
 </style>

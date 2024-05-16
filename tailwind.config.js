@@ -4,6 +4,7 @@ export default {
     './index.html',
      './src/**/*.{js,ts,jsx,tsx}',
     ],
+  mode: 'jit',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -11,6 +12,11 @@ export default {
   theme: {
     extend: {},
   },
+  // variants: {
+  //   extend: {
+  //     backgroundColor: ['odd', 'even']
+  //   },
+  // },
   plugins: [],
   corePlugins: {
     // preflight: false;

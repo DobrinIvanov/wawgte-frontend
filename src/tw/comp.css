@@ -1,0 +1,9 @@
+@variants hover{
+    .comp{@apply text-3xl text-orange-300 }
+}
+
+.comp{ @apply text-3xl text-yellow-500 }
+
+.danger{ @apply border-red-500 text-red-500 }
+.danger:hover{ @apply bg-red-500 }
+.danger:active{ @apply ring-red-400}

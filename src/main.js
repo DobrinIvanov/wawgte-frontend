@@ -1,5 +1,5 @@
 import './index.css'
-import './assets/output.css'
+import './output.css'
 
 
 import { createApp } from 'vue'

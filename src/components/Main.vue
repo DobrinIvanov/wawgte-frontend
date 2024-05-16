@@ -3,8 +3,8 @@
 <template>
   <div >
     <Header />
-    <!-- <Menu :menuItems="menuItems" />
     <MainContent />
+    <!-- <Menu :menuItems="menuItems" />
     <Footer /> -->
   </div>
 </template>

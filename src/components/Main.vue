@@ -1,7 +1,7 @@
 <!-- Main.vue -->
 
 <template>
-  <div class='mx-auto container bg-yellow-100'>
+  <div class='mx-auto container'>
     <Header />
     <Menu />
     <MainContent />
@@ -23,14 +23,7 @@ export default {
     Footer,
   },
   data() {
-    return {
-      menuItems: [
-        { text: 'Home', link: '#' },
-        { text: 'About', link: '#' },
-        { text: 'Services', link: '#' },
-        { text: 'Contact', link: '#' },
-      ]
-    };
+    return {};
   },
 };
 </script>

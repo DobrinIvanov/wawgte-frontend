@@ -1,11 +1,11 @@
 <!-- MainContent.vue -->
 
 <template>
-      <div class='h-4/6 border-2-black p-16'>
-        <div>
+      <div class='bg-green-200'>
+        <div class='text-center'>
           This is a DIV in the MainContent Component
         </div>
-        <div class='center container mx-auto'>
+        <div class='container'>
           <button>Click Me!</button>
         </div>
       </div>

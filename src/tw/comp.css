@@ -1,4 +1,4 @@
-@variants hover{
+@layer utilities {
     .comp{@apply text-3xl text-orange-300 }
 }
 

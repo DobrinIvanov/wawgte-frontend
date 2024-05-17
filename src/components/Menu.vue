@@ -1,9 +1,9 @@
 <!-- Menu.vue -->
 
 <template>
-    <div id="menu">
-      <ul>
-        <li v-for="(item, index) in menuItems" :key="index">
+    <div class="bg-blue-100 px-14 py-2 container mx-auto">
+      <ul class='container mx-auto'>
+        <li v-for="(item, index) in menuItems" :key="index" class="px-4 mx-auto inline-flex border-black px-">
           <a :href="item.link">{{ item.text }}</a>
         </li>
       </ul>
@@ -25,7 +25,7 @@
   };
   </script>
   
-  <style >
+  <style>
   /* Add CSS styles here */
   </style>
   

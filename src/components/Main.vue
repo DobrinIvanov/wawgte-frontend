@@ -1,11 +1,11 @@
 <!-- Main.vue -->
 
 <template>
-  <div >
+  <div class='mx-auto container bg-yellow-100'>
     <Header />
+    <Menu />
     <MainContent />
-    <!-- <Menu :menuItems="menuItems" />
-    <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -35,6 +35,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 /* TailwindCSS styles */
 </style>

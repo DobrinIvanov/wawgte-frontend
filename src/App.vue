@@ -1,7 +1,7 @@
 <!-- App.vue -->
 
 <template>
-  <div class='w-full h-full bg-red-300'>
+  <div class='container mx-auto'>
     <Main />
   </div>
 </template>

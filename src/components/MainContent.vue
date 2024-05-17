@@ -1,22 +1,20 @@
 <!-- MainContent.vue -->
 
 <template>
-    <main class="flex-1 bg-gray-100 p-8">
-      <div class="container mx-auto">
-        This is a DIV in the MainContent Component
+      <div class='h-4/6 border-2-black p-16'>
+        <div>
+          This is a DIV in the MainContent Component
+        </div>
+        <div class='center container mx-auto'>
+          <button>Click Me!</button>
+        </div>
       </div>
-      <div>
-        <button class='danger'>Just show it!</button>
-      </div>
-    </main>
-  </template>
-  
-  <script>
-  export default {
-  };
-  </script>
-  
-  <style scoped>
-  /* TailwindCSS styles */
-  </style>
+</template>
+
+<script>
+ export default {};
+</script>
+
+<style>
+</style>
   

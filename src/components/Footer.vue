@@ -1,13 +1,16 @@
 <!-- Footer.vue -->
 
 <template>
-    <footer class='text-center bg-pink-200'>
+    <div class='text-center text-xs m-2'>
      &copy; 2024 My Vue App. All rights reserved.
-    </footer>
+    </div>
   </template>
   
   <script>
   export default {
+      data() {
+      return {};
+    },
   };
   </script>
   

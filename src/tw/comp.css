@@ -1,9 +1,8 @@
 @layer utilities {
     .comp{@apply text-3xl text-orange-300 }
 }
+.menu-btn{ @apply px-10 mx-4}
+.menu-btn:hover{ @apply px-12}
+.menu-btn:active{ @apply px-11}
 
 .comp{ @apply text-3xl text-yellow-500 }
-
-.danger{ @apply border-red-500 text-red-500 }
-.danger:hover{ @apply bg-red-500 }
-.danger:active{ @apply ring-red-400}

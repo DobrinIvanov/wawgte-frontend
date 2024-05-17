@@ -1,18 +1,19 @@
 <!-- MainContent.vue -->
 
 <template>
-      <div class='bg-green-200'>
-        <div class='text-center'>
+      <div>
+        <div class='text-center h-64 bg-green-100 shadow-md'>
           This is a DIV in the MainContent Component
-        </div>
-        <div class='container'>
-          <button>Click Me!</button>
         </div>
       </div>
 </template>
 
 <script>
- export default {};
+ export default {
+  data() {
+    return {};
+  },
+ };
 </script>
 
 <style>

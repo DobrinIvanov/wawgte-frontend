@@ -1,9 +1,8 @@
 <!-- Main.vue -->
 
 <template>
-  <div class='mx-auto container'>
+  <div class='mx-auto container m-6'>
     <Header />
-    <Menu />
     <MainContent />
     <Footer />
   </div>

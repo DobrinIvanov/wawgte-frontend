@@ -12,10 +12,10 @@
       <div class='inline-block float-right'>
         <ul>
         <li class='inline-block menu-btn'> 
-          <a> Login</a>
+          <a href="/login"> Login</a>
         </li>
         <li class='inline-block menu-btn'>
-          <a> Sign up</a>
+          <a href="/sign-up"> Sign up</a>
         </li>
         </ul> 
       </div>

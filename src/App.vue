@@ -2,6 +2,7 @@
 
 <template>
   <Header />
+  Does this appear?
   <main>
     <RouterView />
   </main>

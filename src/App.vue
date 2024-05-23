@@ -1,20 +1,20 @@
 <!-- App.vue -->
 
 <template>
-  <div class='container mx-auto'>
-    <Main />
-  </div>
+  <Header />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <script>
-import Main from './components/Main.vue';
+import Header from './components/Header.vue'
 
 export default {
   components: {
-    Main,
+    Header
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>

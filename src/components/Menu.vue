@@ -3,10 +3,12 @@
 <template>
     <div class="px-14 py-2 container mx-auto flex-row h-12">
       <div class='inline-block'>
-        <ul class='container mx-auto'>
+        <ul class='container mx-auto bg-yellow-300'>
+          <RouterLink :to="item.link">
           <li v-for="(item, index) in menuItems" :key="index" class="inline-block px-8 menu-btn ">
-            <a :href="item.link">{{ item.text }}</a>
+            {{ item.text }}
           </li>
+        </RouterLink>
         </ul> 
       </div>
       <div class='inline-block float-right'>

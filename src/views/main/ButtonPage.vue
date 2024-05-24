@@ -1,11 +1,8 @@
-<!-- Main.vue -->
+<!-- HomeContentPage.vue -->
 
 <template>
     <div class='mx-auto container m-6'>
-      <Header />
-      <main>
-        <RouterView />
-      </main>
+      <button>Tell me what</button>
     </div>
 </template>
   
@@ -17,7 +14,6 @@
       return {};
     },
     components: {
-      Header,
     }
   };
   </script>

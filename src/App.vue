@@ -3,21 +3,21 @@
 https://github.com/Bienfait-ijambo/vue-course/blob/vue-router-lesson/src/views/blog/BlogPage.vue
 -->
 <template>
-  <Header />
-  Does this appear?
-  <main>
-    <RouterView />
-  </main>
+  <div>
+    <main>
+      <RouterView />
+    </main>
+  </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
 
 export default {
-  components: {
-    Header
+  data() {
+    pageTitle: "App.vue"
   }
 };
+
 </script>
 
 <style></style>

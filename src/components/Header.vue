@@ -1,8 +1,12 @@
 <!-- Header.vue -->
 
 <template>
-    <h1 class='text-center'>WAWGTE</h1>
-    <Menu />
+  <div class="flex-row flex">
+    <div class="flex bg-yellow-300">
+    </div>
+    <div class="flex bg-red-300">
+    </div>
+  </div>
 </template>
 
 <script>

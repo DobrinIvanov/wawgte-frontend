@@ -732,6 +732,10 @@ div {
   height: max-content;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -765,12 +769,36 @@ div {
   width: 8.333333%;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .border-2 {
@@ -830,6 +858,16 @@ div {
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+}
+
+.bg-stone-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+}
+
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -850,6 +888,11 @@ div {
   padding-bottom: 0.5rem;
 }
 
+.px-64 {
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -857,6 +900,11 @@ div {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-lg {

@@ -1,8 +1,8 @@
 <!-- HomeContentPage.vue -->
 
 <template>
-    <div class='mx-auto container m-6 justify-center'>
-      <button class="justify-center">Tell me what</button>
+    <div class='flex flex-row mx-auto container m-6 justify-center'>
+      <button class="justify-center flex">Tell me what</button>
     </div>
 </template>
   

@@ -5,4 +5,4 @@
 .menu-btn:hover{ @apply scale-125 transition-transform transition-shadow}
 .menu-btn:active{ @apply scale-110}
 
-.comp{ @apply text-3xl text-yellow-500 }
+.comp{ @apply text-3xl text-yellow-500}

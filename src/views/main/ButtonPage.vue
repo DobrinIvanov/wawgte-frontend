@@ -1,8 +1,8 @@
 <!-- HomeContentPage.vue -->
 
 <template>
-    <div class='flex flex-row mx-auto container m-6 justify-center'>
-      <button class="justify-center flex">Tell me what</button>
+    <div class='flex h-10'>
+        <button class="drop-shadow-2xl shadow-blue-400 hover:animate-pulse">Tell me what, pls?</button>
     </div>
 </template>
   

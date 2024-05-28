@@ -1,7 +1,7 @@
 <!-- App.vue -->
 
 <template>
-  <div class="px-64 bg-stone-700 ">
+  <div class="px-64">
     <main>
       <RouterView />
     </main>

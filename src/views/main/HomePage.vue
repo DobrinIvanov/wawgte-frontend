@@ -16,8 +16,8 @@
             <h1 class="text-3xl absolute font-mono bold">What Are We Going To Eat?</h1>
           </div>
           <div class=" flex-row justify-evenly flex items-end">
-            <button class="flex h-9 w-auto items-center justify-center p-4 m-2 bg-gradient-to-r from-stone-200 to-stone-300 rounded-lg shadow-md shadow-stone-800">Login</button>
-            <button class="flex h-9 w-auto items-center justify-center p-4 m-2 bg-gradient-to-r from-stone-200 to-stone-300 rounded-lg shadow-md shadow-stone-700">SignUp</button>
+            <button class="border-stone-400 border flex h-9 w-auto items-center justify-center p-4 m-2 bg-gradient-to-r from-stone-200 to-stone-300 rounded-lg shadow-md shadow-stone-800">Login</button>
+            <button class="border-stone-400 border flex h-9 w-auto items-center justify-center p-4 m-2 bg-gradient-to-r from-stone-200 to-stone-300 rounded-lg shadow-md shadow-stone-700">SignUp</button>
           </div>
         </div>
         <div class="flex justify-center items-center h-full">

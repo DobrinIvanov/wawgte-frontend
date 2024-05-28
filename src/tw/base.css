@@ -1,6 +1,6 @@
 h1{ @apply text-left text-blue-950 text-4xl font-serif my-2}
 p{ @apply font-mono my-1}
-/* button{ @apply border border-orange-300 text-orange-300 bg-stone-600 p-2 rounded-md }
-button:hover{ @apply text-white bg-orange-300}
+button{ @apply active:scale-95 }
+/* button:hover{ @apply text-white bg-orange-300}
 button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
 div { @apply m-3 }

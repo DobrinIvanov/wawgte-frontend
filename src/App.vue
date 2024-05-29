@@ -1,7 +1,7 @@
 <!-- App.vue -->
 
 <template>
-  <div class="px-64">
+  <div class="px-72">
     <main>
       <RouterView />
     </main>

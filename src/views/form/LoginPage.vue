@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <h1>Login</h1>
-    <form @submit.prevent="submitForm">
-      <div>
+  <div class="m-32 w-1/2 h-3/5">
+    <h1 class="p-6"><img src="@/assets/login.png" class="h-10 w-10 m-3 inline-block"/>Login</h1>
+    <form @submit.prevent="submitForm" class="flex-col flex">
+      <div class="flex p-8">
         <label for="email">Email:</label>
         <input type="email" id="email" v-model="email" required />
       </div>
-      <div>
+      <div class="flex pl-8">
         <label for="password">Password:</label>
         <input type="password" id="password" v-model="password" required />
       </div>
-      <button type="submit">Login</button>
+      <button class="" type="submit">Login</button>
     </form>
   </div>
 </template>

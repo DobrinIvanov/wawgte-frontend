@@ -4,10 +4,10 @@
     <div class="flex-row flex h-screen p-5 shadow-2xl font-mono">
       <div id="left-side-menu" class="flex h-full w-16 fixed left-48">
         <ul class="flex flex-col justify-evenly">
-          <li class="flex"><button class="menu-btn"><img class="" src="@/assets/home.png"/></button></li>
-          <li class="flex"><button><img class="menu-btn" src="@/assets/recipe.png"/></button></li>
-          <li class="flex"><button><img class="menu-btn" src="@/assets/cookbook.png"/></button></li>
-          <li class="flex"><button><img class="menu-btn" src="@/assets/about.png"/></button></li>
+          <li class="flex"><a class="menu-btn" href="/"><img src="@/assets/home.png"/></a></li>
+          <li class="flex"><a class="menu-btn" href="/recipes"><img src="@/assets/recipe.png"/></a></li>
+          <li class="flex"><a class="menu-btn" href="/cookbooks"><img src="@/assets/cookbook.png"/></a></li>
+          <li class="flex"><a class="menu-btn" href="/about"><img src="@/assets/about.png"/></a></li>
         </ul>
       </div>
       <div class="flex flex-col w-screen">

@@ -1,7 +1,7 @@
 @layer utilities {
     .comp{@apply text-3xl text-orange-300 }
 }
-.menu-btn{ @apply scale-75}
+.menu-btn{ @apply scale-90}
 .menu-btn:hover{ @apply relative scale-100 transition-shadow}
 .menu-btn:active{ @apply relative scale-95}
 

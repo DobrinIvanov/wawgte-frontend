@@ -1,5 +1,6 @@
 <template>
-    <button @click="" class="block bg-red-400 shadow-lg shadow-orange-300 ">{{ buttonText }}</button>
+        <button class="shadow-md shadow-black rounded-full h-64 w-64
+                        active:scale-95">Tell me what, pls?</button>
 </template>
 <script>
 

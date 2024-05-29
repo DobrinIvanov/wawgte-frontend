@@ -1,13 +1,12 @@
 <template>
-    <div class="px-14 py-2 container mx-auto flex-row">
-        <p>Hello there! This is my About Page!</p>
-        <p>
-            What are we going to eat? This question bugs me almost on a daily basis and I always cannot think of many
+    <div class="h-full ">
+        <div class="m-10">Hello there! This is my <b>About</b> Page! <br/><br/>What are we going to eat today?<br/><br/> This question bugs me almost on a daily basis and I always cannot think of many
             different dishes/meals I can prepare.
-        </p>
-        <p>
             This application was developed with the goal of assisting me to choose what to eat.
-        </p>
+        </div>
+        <div>
+            <img src=""/>
+        </div>
     </div>
 </template>
 <script>

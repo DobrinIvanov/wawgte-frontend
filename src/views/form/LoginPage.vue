@@ -1,5 +1,5 @@
 <template>
-  <div class="m-32 w-1/2 h-3/5">
+  <div class="m-32 w-96 h-3/5 rounded-md bg-stone-300 shadow-md shadow-indigo-400">
     <h1 class="p-6"><img src="@/assets/login.png" class="h-10 w-10 m-3 inline-block"/>Login</h1>
     <form @submit.prevent="submitForm" class="flex-col flex">
       <div class="flex p-8">

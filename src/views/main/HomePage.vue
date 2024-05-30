@@ -1,34 +1,34 @@
 <!-- Main.vue -->
 
 <template>
-  <div class="flex-row flex h-screen p-5 shadow-2xl shadow-lime-100 font-mono">
+  <div class="flex-row flex h-screen p-5 shadow-2xl shadow-orange-200 font-mono bg-white-2">
     <div id="left-side-menu" class="flex h-full w-16 fixed left-44">
       <ul class="flex flex-col justify-evenly">
-        <li class="flex"><a class="menu-btn" href="/"><img src="@/assets/home.png" /></a></li>
-        <li class="flex"><a class="menu-btn" href="/recipes"><img src="@/assets/recipe.png" /></a></li>
-        <li class="flex"><a class="menu-btn" href="/cookbooks"><img src="@/assets/cookbook.png" /></a></li>
-        <li class="flex"><a class="menu-btn" href="/about"><img src="@/assets/about.png" /></a></li>
+        <li class="flex"><a class="menu-btn" href="/"><img src="@/assets/home.png"/></a></li>
+        <li class="flex"><a class="menu-btn" href="/recipes"><img alt="Recipes" src="@/assets/recipe.png" /></a></li>
+        <li class="flex"><a class="menu-btn" href="/cookbooks"><img alt="Cookbooks" src="@/assets/cookbook.png" /></a></li>
+        <li class="flex"><a class="menu-btn" href="/about"><img alt="About page" src="@/assets/about.png" /></a></li>
       </ul>
     </div>
     <div class="flex flex-col w-screen">
-      <div class="flex flex-rox h-20 justify-between">
-        <div class="w-1/2 justify-center flex">
-          <h1 class="text-3xl absolute font-mono bold">What Are We Going To Eat?</h1>
+      <div class="flex flex-rox h-32 justify-between rounded-md ">
+        <div class="w-1/2 justify-center flex items-center">
+          <h1 class="text-3xl absolute font-semibold text-black-2">What Are We Going To Eat?</h1>
         </div>
-        <div class=" flex-row justify-evenly flex items-end">
+        <div class=" flex-row justify-evenly items-center flex">
           <a href="/login">
             <button
-              class="border-lime-200 border flex h-9 w-auto
+              class="border-green-2 border flex h-9 w-auto
                     items-center justify-center p-4 m-2
-                    bg-gradient-to-r from-stone-200 to-stone-300
-                    rounded-lg shadow-sm shadow-lime-100">Login</button>
+                    bg-gradient-to-r from-black-1 to-black-2
+                    rounded-lg shadow-sm shadow-green-200">Login</button>
           </a>
           <a href="/sign-up">
             <button
-              class="border-lime-200 border flex h-9 w-auto
+              class="border-green-2 border flex h-9 w-auto
               items-center justify-center p-4 m-2
-              bg-gradient-to-r from-stone-200 to-stone-300
-              rounded-lg shadow-sm shadow-lime-100">SignUp</button>
+              bg-gradient-to-r from-black-1 to-black-2
+              rounded-lg shadow-sm shadow-green-200">SignUp</button>
           </a>
         </div>
       </div>

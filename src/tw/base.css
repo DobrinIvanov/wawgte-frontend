@@ -3,4 +3,4 @@ p{ @apply font-mono my-1}
 button{ @apply active:scale-95 }
 /* button:hover{ @apply text-white bg-orange-300}
 button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
-/* div { @apply m-1 border-solid border-black-2 border } */
+div { @apply m-1 border-solid border-black-2 border }

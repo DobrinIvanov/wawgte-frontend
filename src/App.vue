@@ -9,7 +9,7 @@
 </template> -->
 
 <template>
-  <div class="">
+  <div>
       <RouterView />
   </div>
 </template>

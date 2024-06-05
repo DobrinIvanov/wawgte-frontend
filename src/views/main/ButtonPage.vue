@@ -1,7 +1,10 @@
 <!-- HomeContentPage.vue -->
 
 <template>
-    <div class='flex h-10 justify-center items-center'>
+    <div class='flex flex-col h-full py-14 justify-center items-center'>
+      <div class="border border-white-1 w-full text-center ">
+        Some content here? What should it be?
+      </div>
       <WawgteButton />
     </div>
 </template>

@@ -56,9 +56,9 @@
           <a href="/cookbooks" class="px-4 menu-btn">Cookbooks</a>
           <a href="/about" class="px-4 menu-btn">About</a>
         </div>
-        <div>
-          <a href="/login" class="menu-btn">Login</a>
-          <a href="/sign-up" class="menu-btn">Sign up</a>
+        <div class="flex flex-row border border-white-1">
+          <a href="/login" class="menu-btn px-4">Login</a>
+          <a href="/sign-up" class="menu-btn px-4">Sign up</a>
         </div>
 
 

@@ -52,8 +52,8 @@
         </div>
         <div>
           <a href="/auth" class="px-4 menu-btn">Home</a>
-          <a href="/recipes" class="px-4 menu-btn">Recipes</a>
-          <a href="/cookbooks" class="px-4 menu-btn">Cookbooks</a>
+          <a href="/all-recipes" class="px-4 menu-btn">Recipes</a>
+          <a href="/all-cookbooks" class="px-4 menu-btn">Cookbooks</a>
           <a href="/about" class="px-4 menu-btn">About</a>
         </div>
         <div class="flex flex-row border border-white-1">

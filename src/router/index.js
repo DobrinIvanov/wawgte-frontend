@@ -11,7 +11,10 @@ const router = createRouter({
         { path: '/about', component: () => import('@/views/main/AboutPage.vue') },
         { path: '/sign-up', component: () => import('@/views/form/SignUpPage.vue')},
         { path: '/login', component: () => import('@/views/form/LoginPage.vue')},
-        { path: '/recipes' , component: ()=> import('@/views/recipes/RecipesList.vue')}
+        { path: '/all-recipes' , component: ()=> import('@/views/recipes/RecipesList.vue')},
+        { path: '/recipe', component: ()=> import('@/views/recipes/SingleRecipeList.vue')},
+        { path: '/all-cookbooks', component: ()=> import('@/views/cookbooks/CookbooksList.vue')},
+        { path: '/cookbook', component: ()=> import('@/views/cookbooks/SingleCookbookList.vue')},
       ]
     },
     {

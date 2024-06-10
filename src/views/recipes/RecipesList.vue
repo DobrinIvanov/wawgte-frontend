@@ -1,9 +1,19 @@
 <template>
-    <div class="bg-orange-1">
+    <div class="bg-orange-1 m-6">
       <div v-if="recipes.length > 0">
-        <ul>
-          <li v-for="recipe in recipes" :key="recipe.recipe_id">
-            <a href="/recipe">{{ recipe.title }} - {{ recipe.description }}</a>
+        <ul class="flex flex-wrap justify-evenly">
+          <li class="m-2 bg-black-1 w-48 h-32" v-for="recipe in recipes" :key="recipe.recipe_id">
+            <a href="/recipe">
+              <div>
+                  {{ recipe.title }}
+              </div>
+              <div>
+                  {{ recipe.author }}
+              </div>
+              <div>
+                {{ recipe.description }}
+              </div>
+            </a>
           </li>
         </ul>
       </div>

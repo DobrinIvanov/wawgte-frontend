@@ -6,7 +6,7 @@
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div>
           <a href="#" class="flex items-center">
-            <img src="@/assets/food-logo.png" class="h-8" alt="WAWGTE Logo" />
+            <img src="@/assets/food-logo.png" class="h-12" alt="WAWGTE Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">WAWGTE</span>
           </a>
         </div>
@@ -16,12 +16,12 @@
           <a href="/all-cookbooks" class="px-4 menu-btn">Cookbooks</a>
           <a href="/about" class="px-4 menu-btn">About</a>
         </div>
-        <div v-if="logged" class="flex flex-row">
-          <a href="/login" class="menu-btn px-4">Login</a>
-          <a href="/sign-up" class="menu-btn px-4">Sign up</a>
+        <div v-if="this.logged" class="flex flex-row">
+          <a href="/login" class="menu-btn px-4">My Account</a>
         </div>
         <div v-else>
-          <a href="/login" class="menu-btn px-4">My Account</a>
+          <a href="/login" class="menu-btn px-4">Login</a>
+          <a href="/sign-up" class="menu-btn px-4">Sign up</a>
         </div>
 
 
@@ -39,7 +39,7 @@ export default {
 
   data() {
     return {
-      logged: true,
+      logged: false,
     };
   },
   components: {

@@ -10,7 +10,7 @@
 
 <template>
   <div>
-      <RouterView />
+    <RouterView />
   </div>
 </template>
 
@@ -18,7 +18,9 @@
 
 export default {
   data() {
-    pageTitle: "App.vue"
+    return {
+      pageTitle: "App.vue",
+    };
   }
 };
 

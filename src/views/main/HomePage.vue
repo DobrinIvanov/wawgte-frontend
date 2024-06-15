@@ -16,7 +16,7 @@
           <a href="/all-cookbooks" class="px-4 menu-btn">Cookbooks</a>
           <a href="/about" class="px-4 menu-btn">About</a>
         </div>
-        <div v-if="this.logged" class="flex flex-row">
+        <div v-if="logged" class="flex flex-row">
           <a href="/login" class="menu-btn px-4">My Account</a>
         </div>
         <div v-else>
@@ -39,7 +39,7 @@ export default {
 
   data() {
     return {
-      logged: false,
+      logged: true,
     };
   },
   components: {

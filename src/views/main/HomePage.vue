@@ -12,10 +12,8 @@
         </div>
         <div>
           <RouterLink to="/" class="px-4 menu-btn">Home</RouterLink>
-          <template v-if="logged">
-            <RouterLink to="/all-recipes" class="px-4 menu-btn">Recipes</RouterLink>
-            <RouterLink to="/all-cookbooks" class="px-4 menu-btn">Cookbooks</RouterLink>
-          </template>
+          <RouterLink to="/all-recipes" class="px-4 menu-btn">Recipes</RouterLink>
+          <RouterLink to="/all-cookbooks" class="px-4 menu-btn">Cookbooks</RouterLink>
           <RouterLink to="/about" class="px-4 menu-btn">About</RouterLink>
         </div>
         <div v-if="logged" class="flex flex-row">
@@ -39,7 +37,7 @@ export default {
 
   data() {
     return {
-      logged: true,
+      logged: false, 
     };
   },
   components: {

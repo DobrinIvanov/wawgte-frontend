@@ -1,6 +1,9 @@
 <template>
-    <div class="bg-yellow-300">
-
+    <div class="bg-yellow-300 flex flex-row">
+        <div v-for="cookbook in cookbooks">
+            <h6>{{ cookbook.title }}</h6>
+            <span> {{ cookbook.description }}</span>
+        </div>
     </div>
 </template>
 <script>

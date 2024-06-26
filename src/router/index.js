@@ -17,13 +17,13 @@ const router = createRouter({
         { path: '/cookbook', component: ()=> import('@/views/cookbooks/SingleCookbookList.vue')},
       ]
     },
-    {
-      path: '/auth',
-      component: () => import('@/views/auth/HomeAuthPage.vue'),
-      children: [
-        { path: '', component: () => import('@/views/main/ButtonPage.vue') },
-      ]
-    }
+    // {
+    //   path: '/auth',
+    //   component: () => import('@/views/auth/HomeAuthPage.vue'),
+    //   children: [
+    //     { path: '', component: () => import('@/views/main/ButtonPage.vue') },
+    //   ]
+    // }
   ]
 })
 

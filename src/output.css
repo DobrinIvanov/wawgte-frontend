@@ -678,10 +678,6 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
   margin-bottom: 1.5rem;
 }
 
-.ms-2 {
-  margin-inline-start: 0.5rem;
-}
-
 .block {
   display: block;
 }
@@ -706,20 +702,8 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
   height: 8rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-64 {
   height: 16rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .h-96 {
@@ -732,10 +716,6 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-48 {
@@ -784,10 +764,6 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
   flex-wrap: wrap;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
@@ -814,10 +790,6 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
 
 .whitespace-nowrap {
   white-space: nowrap;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -868,11 +840,6 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .bg-orange-1 {
@@ -1008,10 +975,21 @@ button:active{ @apply ring-2 ring-orange-200 ring-offset-2 } */
   color: rgb(246 241 238 / var(--tw-text-opacity));
 }
 
+.shadow-inner {
+  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-black-1 {
+  --tw-shadow-color: #4F4A45;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-lime-100 {

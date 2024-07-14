@@ -31,6 +31,7 @@ export default {
     return {
       email: '',
       password: '',
+      isLoggedIn: false,
     };
   },
   methods: {
@@ -43,6 +44,7 @@ export default {
 
         // Handle successful login based on your backend's response structure
         console.log('Login successful:', response.data);
+        this.isLoggedIn = true;
         // You might store an auth token or redirect to a protected page
 
       } catch (error) {
@@ -51,5 +53,12 @@ export default {
       }
     },
   },
+  computed: {
+      isLoggedIn() {
+        const jwtCookie = Cookies.get('jwtWawgte');
+        // ... (optional cookie validation)
+        return !!jwtCookie;
+      },
+    },
 };
 </script>

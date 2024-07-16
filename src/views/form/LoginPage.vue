@@ -31,7 +31,6 @@ export default {
     return {
       email: '',
       password: '',
-      isLoggedIn: false,
     };
   },
   methods: {
@@ -45,20 +44,14 @@ export default {
         // Handle successful login based on your backend's response structure
         console.log('Login successful:', response.data);
         this.isLoggedIn = true;
-        // You might store an auth token or redirect to a protected page
-
+        // Redirect to the home page
+        this.$router.push('/')
+        
       } catch (error) {
         this.errorMessage = 'Login failed. Please check your credentials.';
         console.error('Login error:', error);
       }
     },
   },
-  computed: {
-      isLoggedIn() {
-        const jwtCookie = Cookies.get('jwtWawgte');
-        // ... (optional cookie validation)
-        return !!jwtCookie;
-      },
-    },
 };
 </script>

@@ -4,14 +4,14 @@
     <form class="max-w-sm mx-auto" v-on:submit.prevent="submitForm">
       <div class="mb-5">
         <label for="email" class="block mb-2 text-sm font-medium">Your email</label>
-        <input type="email" id="email"
+        <input v-model="email" type="email" id="email"
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm
           rounded-lg block w-full p-2.5"
           placeholder="example@gmail.com" required />
       </div>
       <div class="mb-5">
         <label for="password" class="block mb-2 text-sm font-medium">Your password</label>
-        <input type="password" id="password"
+        <input v-model="password" type="password" id="password"
           class="bg-gray-50 border border-gray-300 text-gray-900
           text-sm rounded-lg  block w-full p-2.5" placeholder="Password"
           required />

@@ -1,5 +1,4 @@
 <!-- Header.vue -->
-
 <template>
   <nav class="bg-black-2 border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -27,19 +26,12 @@
 </template>
 
 <script>
-
 export default {
   props: {
     isLoggedIn: {
       type: Boolean,
       required: true
-    }
-  },
-  data() {
-
+    },
   },
 };
 </script>
-
-<style >
-</style>

@@ -22,30 +22,12 @@
         class="text-black-1 bg-white-2 focus:ring-4 focus:outline-none
         font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
     </form>
-
   </div>
-  <!-- <div>
-    <h1>Sign Up</h1>
-    <form @submit.prevent="submitForm">
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" v-model="username" required />
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" v-model="email" required />
-      </div>
-      <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" v-model="password" required />
-      </div>
-      <button type="submit">Sign Up</button>
-    </form>
-  </div> -->
 </template>
 
 
 <script>
+import axios from 'axios';
 export default {
   data() {
     return {

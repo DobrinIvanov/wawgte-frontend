@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-orange-1 m-6">
+    <div class="bg-black-2 m-6">
       <div v-if="recipes.length > 0">
         <ul class="flex flex-wrap justify-evenly">
           <li class="m-2 bg-black-1 w-48 h-32" v-for="recipe in recipes" :key="recipe.recipe_id">
-            <a href="/recipe">
+            <RouterLink to="/recipe/${recipe.id}" class="px-4 menu-btn">
               <div>
                   {{ recipe.title }}
               </div>
@@ -13,12 +13,12 @@
               <div>
                 {{ recipe.description }}
               </div>
-            </a>
+            </RouterLink>
           </li>
         </ul>
       </div>
-      <div v-else>
-        Loading...
+      <div class="p-10" v-else>
+        Error displaying recipes. Contact webmaster at info@wawgte.com.
       </div>
     </div>
   </template>
@@ -31,13 +31,13 @@ export default {
         };
     },
     mounted() {
-        axios.get("http://backend.wawgte.com/recipes").then(response => {
+        axios.get("http://backend.wawgte.com/recipes")
+        .then(response => {
             this.recipes = response.data;
         })
         .catch(error => {
             console.error('There was an error fetching the recipes:', error);
-        })
-       
+        });
     }
 }
 

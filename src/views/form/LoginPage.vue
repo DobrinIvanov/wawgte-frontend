@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   data() {
     return {
@@ -35,23 +36,26 @@ export default {
   },
   methods: {
     async submitForm() {
-      try {
-        const response = await axios.post('https://backend.wawgte.com/login', {
-          email: this.email,
-          password: this.password,
-        });
+      axios.post('http://backend.wawgte.com/login', {
+        email: this.email,
+        password: this.password
+      })
+      .then((response) => {
+        console.log(response.status, response.data.token);
+        if (response.status === 200) {
+          // Handle successful login based on your backend's response structure
+          console.log('Login successful:', response.data);
+          this.isLoggedIn = true;
+          // Redirect to the home page
+          this.$router.push('/')
+        } else {
+          console.log('Login failed:', response.data);
+          this.isLoggedIn = false;
+        }
+      })
+      .catch((error) => console.error(error));
 
-        // Handle successful login based on your backend's response structure
-        console.log('Login successful:', response.data);
-        this.isLoggedIn = true;
-        // Redirect to the home page
-        this.$router.push('/')
-        
-      } catch (error) {
-        this.errorMessage = 'Login failed. Please check your credentials.';
-        console.error('Login error:', error);
-      }
     },
-  },
-};
+  }
+}
 </script>

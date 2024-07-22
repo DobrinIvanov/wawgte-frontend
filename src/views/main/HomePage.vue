@@ -43,7 +43,7 @@ export default {
           console.log('This means no jwtWawgte was obtained(cookie)');
           return;
         }
-        const response = axios.post('http://backend.wawgte.com/jwt', { token: jwtWawgte });
+        const response = axios.post('https://backend.wawgte.com/jwt', { token: jwtWawgte });
         const result = response.data;
         //DEBUGGING
         console.log('response.data: ', result)

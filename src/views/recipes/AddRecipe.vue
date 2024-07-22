@@ -19,7 +19,7 @@ export default {
         async submitForm() {
             try {
                 // Some code for submitting form
-                axios.post("http://backend.wawgte.com/recipes").then(response => {
+                axios.post("https://backend.wawgte.com/recipes").then(response => {
                 this.response = response.data;
         })
             } catch (error) {

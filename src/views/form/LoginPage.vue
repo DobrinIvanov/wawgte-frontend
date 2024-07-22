@@ -16,12 +16,10 @@
           text-sm rounded-lg  block w-full p-2.5" placeholder="Password"
           required />
       </div>
-
       <button type="submit"
         class="text-black-2 bg-white-1 hover:bg-white-2 focus:ring-4 focus:outline-none
               font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
     </form>
-
   </div>
 </template>
 
@@ -36,10 +34,10 @@ export default {
   },
   methods: {
     async submitForm() {
-      axios.post('http://backend.wawgte.com/login', {
+      axios.post('https://backend.wawgte.com/login', {
         email: this.email,
         password: this.password
-      })
+      }, { withCredentials: true })
       .then((response) => {
         console.log(response.status, response.data.token);
         if (response.status === 200) {

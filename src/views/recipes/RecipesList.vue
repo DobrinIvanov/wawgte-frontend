@@ -31,7 +31,7 @@ export default {
         };
     },
     mounted() {
-        axios.get("http://backend.wawgte.com/recipes")
+        axios.get("https://backend.wawgte.com/recipes")
         .then(response => {
             this.recipes = response.data;
         })

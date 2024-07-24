@@ -44,6 +44,7 @@ export default {
           // Handle successful login based on your backend's response structure
           console.log('Login successful:', response.data);
           this.isLoggedIn = true;
+          this.validateToken();
           // Redirect to the home page
           this.$router.push('/')
         } else {

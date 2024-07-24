@@ -28,12 +28,14 @@ export default {
   },
 
   async created() {
+    console.log('Created.');
     await this.validateToken();
   },
 // REQUIRES DEBUGGING
   methods: {
     async validateToken(jwtoken) {
       try {
+        console.log('Testing show all cookie keys: ', this.$cookies.keys());
         const jwtWawgte = this.$cookies.get('jwtWawgte');
         //DEBUGGING
         console.log('Cookie if found: ',jwtWawgte);

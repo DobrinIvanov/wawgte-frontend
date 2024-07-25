@@ -5,11 +5,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import VueCookies from 'vue-cookies'
-import store from './store';
+// TODO TO add store as well
+// import store from './store';
 
 
 const app = createApp(App);
 
-app.use(router, store);
+// NEED TO ADD STORE TO app.use(router) in order to use the Store configuration TODO
+app.use(router);
 app.use(VueCookies);
 app.mount('#app');

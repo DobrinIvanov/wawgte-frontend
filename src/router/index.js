@@ -15,6 +15,7 @@ const router = createRouter({
         { path: '/recipe', component: ()=> import('@/views/recipes/SingleRecipeList.vue')},
         { path: '/all-cookbooks', component: ()=> import('@/views/cookbooks/CookbooksList.vue')},
         { path: '/cookbook', component: ()=> import('@/views/cookbooks/SingleCookbookList.vue')},
+        { path: '/add-recipe', component: ()=> import('@/views/recipes/AddRecipe.vue')},       
       ]
     },
     // {
